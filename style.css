@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,100&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background: linear-gradient(40deg, #69b7ff 0%, #fff 100%);
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  gap: 159px;
+}
+.image {
+  width: 100%;
+  max-width: 564px;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.child1 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.welcome-back {
+  width: 100%;
+  max-width: 226px;
+  color: #202020;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.track {
+  margin: 0;
+}
+.track-health {
+  color: #353535;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.SportsCo {
+  color: #353535;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.fontsize-email {
+  color: #202020;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.fontsize-password {
+  color: #202020;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.eye {
+  padding: 0;
+}
+.input-size {
+  width: 100%;
+  max-width: 397px;
+  background: #fff;
+  border: 1px solid #353535;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 13px
+}
+::placeholder{
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  color: #606060;
+}
+.checkbox-remember-forget {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.checkbox {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 22px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #959595;
+}
+.gap-remember-forget {
+  display: flex;
+  flex-direction: row;
+  gap: 116px;
+  align-items: center;
+}
+.remember {
+  color: #202020;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+.forget-password {
+  color: #3f46ff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px ;
+}
+.child3 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.sign-in-button {
+  margin: 0px;
+  padding: 0px;
+  background: #3f46ff;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  max-width: 397px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.or-line {
+  display: flex;
+  align-items: center;
+}
+.or {
+  margin: 0px;
+  padding: 0px;
+  color: #353535;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.line-before {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 164px;
+  height: 1px;
+  background: #353535;
+}
+
+.line-after {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 164px;
+  height: 1px;
+  background: #353535;
+}
+.buttons {
+  display: flex;
+}
+
+.google-logo {
+  width: 100%;
+  max-width: 116px;
+  /* height: 47px; */
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #353535;
+}
+.google-button {
+  padding-right: 26px;
+}
+.facebook-logo {
+  width: 100%;
+  max-width: 116px;
+  /* height: 47px; */
+  background: #fff;
+  border: 1px solid #353535;
+  border-radius: 10px;
+}
+.facebook-button {
+  padding-right: 23px;
+}
+.apple-logo {
+  width: 100%;
+  max-width: 116px;
+  /* height: 47px;/ */
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #353535;
+}
+.child4 {
+  display: flex;
+}
+.new-to-sportCo {
+  color: #353535;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 18px;
+}
+.account {
+  color: #3f46ff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
